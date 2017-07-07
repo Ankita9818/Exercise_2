@@ -1,27 +1,15 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 	<title></title>
 	<style type="text/css">
 		.container {
-			
-			height:940px;
-      
-      padding:5px 5px;
-     
-       }
+      padding:5px 5px;}
     .container2 {
-			
-			height:940px;
       margin:0 auto;
-      padding: 5px;
-      }
+      padding: 5px;}
     #t1{
-    	border:10px solid #ccc;
-    	
-    }
-
+    	border:10px solid #ccc;}
   </style>
 </head>
 <body>
@@ -35,7 +23,7 @@
   			<table cellspacing="20">
     			<tr>
     				<td>
-  						<img src="file:///Users/vinsol/Desktop/projects/Exercise%202/profileimg.png" alt="profile image" style="width:200px;height:200px;">
+  						<img src="profileimg.png" alt="profile image" style="width:200px;height:200px;">
   					</td>
   					<td>
   		  			<span style="font-size: 30px;font-weight: bold;" >I am using internet to learn skills</span>
@@ -83,20 +71,20 @@
   						<th><strong>Contact me now</strong></th>
   					</tr>
   					<tr>
-  						<td>Your name</td>
-  						<td><input type="text" name="fname"></td>
+  						<td><label for="fname">Your name</label></td>
+  						<td><input type="text" id="fname"></td>
   					</tr>
   					<tr>
-  						<td>Your email</td>
-  						<td><input type="email" name="mail"></td>
+  						<td><label for="mail">Your email</label></td>
+  						<td><input type="email" id="mail"></td>
   					</tr>
   					<tr>
-  						<td>Subject</td>
-  						<td><input type="text" name="subject"></td>
+  						<td><label for="subject">Subject</label></td>
+  						<td><input type="text" id="subject"></td>
   					</tr>
   					<tr>
-  						<td align="top">Message</td>
-  						<td><textarea name="msg" rows="5" cols="30"></textarea></td>
+  						<td style="vertical-align: top"><label for="msg">Message</label></td>
+  						<td><textarea id="msg" rows="5" cols="30"></textarea></td>
   					</tr>
   					<tr>
   						<td></td>
@@ -106,7 +94,7 @@
   			</form>
 			</div>
 		</td>
-		<td style="width: 20%" id="t1">
+		<td style="width: 20% ;vertical-align: top" id="t1">
 			<div class="container2">
 				<h2>This is your profile</h2>
   			<br>
